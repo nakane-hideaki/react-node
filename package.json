@@ -45,5 +45,9 @@
     "@typescript-eslint/parser": "^5.28.0",
     "eslint": "^8.17.0",
     "eslint-plugin-react": "^7.30.0"
+  },
+  "volta": {
+    "node": "18.4.0",
+    "npm": "8.12.2"
   }
 }
