@@ -1,10 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Hello from './components/Hello';
+import TopPage from './components/TopPage';
 
 function App() {
-  return (
+
+  const jsx =  (  
+    
     <div className="App">
+      <Hello />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,9 +23,14 @@ function App() {
         >
           Learn React
         </a>
+
+        <TopPage />
       </header>
     </div>
+
+
   );
+  return jsx;
 }
 
 export default App;
