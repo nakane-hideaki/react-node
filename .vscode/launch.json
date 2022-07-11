@@ -9,10 +9,17 @@
         },
         {
             "type": "node-terminal",
-            "name": "Run Script: start",
+            "name": "Run Script: Default",
             "request": "launch",
             "command": "npm run start",
             "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "node-terminal",
+            "name": "Run Script: TodoApp",
+            "request": "launch",
+            "command": "npm run start",
+            "cwd": "${workspaceFolder}/todo_app"
         },
     ]
 }
