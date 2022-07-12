@@ -12,7 +12,7 @@
             "name": "Run Script: Default",
             "request": "launch",
             "command": "npm run start",
-            "cwd": "${workspaceFolder}"
+            "cwd": "${workspaceFolder}/Default"
         },
         {
             "type": "node-terminal",
